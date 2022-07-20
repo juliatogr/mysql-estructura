@@ -1,6 +1,9 @@
 # mysql-estructura
 
-Repository created to deliver the first task of the second sprint of the BackEnd Java Bootcamp at IT-Academy (Barcelona Activa).
+Repository created to deliver the first task of the second sprint of the BackEnd Java Bootcamp at IT-Academy.
+
+![image](https://user-images.githubusercontent.com/72571435/179958350-c8db27b9-ada1-45d3-8ab4-6f2dcd31eb30.png)
+
 
 ## util links
 
