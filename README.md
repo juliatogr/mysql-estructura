@@ -1,8 +1,6 @@
 # mysql-estructura
 
-Repository created to deliver the first task of the second sprint of the BackEnd Java Bootcamp at IT-Academy.
-
-<img src=https://user-images.githubusercontent.com/72571435/179958350-c8db27b9-ada1-45d3-8ab4-6f2dcd31eb30.png width="50" height="50" />
+Repository created to deliver the first task of the second sprint of the BackEnd Java Bootcamp at IT-Academy. <img src=https://user-images.githubusercontent.com/72571435/179958350-c8db27b9-ada1-45d3-8ab4-6f2dcd31eb30.png width="100" height="100" />
 
 
 ## util links
