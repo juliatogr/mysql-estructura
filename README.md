@@ -6,7 +6,10 @@ Repository created to deliver the first task of the second sprint of the BackEnd
 </p>
 
 
-##n1exercici1
+## n1exercici1
+
+![image](https://user-images.githubusercontent.com/72571435/180956473-162c6c73-193d-47bb-9aa4-6d924fa9c30f.png)
+
 
 ## util links
 
