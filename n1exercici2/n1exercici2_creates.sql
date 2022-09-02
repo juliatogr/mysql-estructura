@@ -21,7 +21,7 @@ USE `n1exercici2` ;
 DROP TABLE IF EXISTS `n1exercici2`.`provincia` ;
 
 CREATE TABLE IF NOT EXISTS `n1exercici2`.`provincia` (
-  `provincia_id` INT NOT NULL,
+  `provincia_id` INT NOT NULL AUTO_INCREMENT,
   `provincia_nom` VARCHAR(45) NULL,
   PRIMARY KEY (`provincia_id`))
 ENGINE = InnoDB;
@@ -33,7 +33,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `n1exercici2`.`localitat` ;
 
 CREATE TABLE IF NOT EXISTS `n1exercici2`.`localitat` (
-  `localitat_id` INT NOT NULL,
+  `localitat_id` INT NOT NULL AUTO_INCREMENT,
   `localitat_nom` VARCHAR(45) NULL,
   `provincia_provincia_id` INT NOT NULL,
   PRIMARY KEY (`localitat_id`),
@@ -52,7 +52,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `n1exercici2`.`client` ;
 
 CREATE TABLE IF NOT EXISTS `n1exercici2`.`client` (
-  `client_id` INT NOT NULL,
+  `client_id` INT NOT NULL AUTO_INCREMENT,
   `client_nom` VARCHAR(45) NOT NULL,
   `client_cognoms` VARCHAR(45) NOT NULL,
   `adreça` VARCHAR(255) NOT NULL,
@@ -96,7 +96,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `n1exercici2`.`empleat` ;
 
 CREATE TABLE IF NOT EXISTS `n1exercici2`.`empleat` (
-  `NIF` VARCHAR(9) NOT NULL,
+  `nif` VARCHAR(9) NOT NULL,
   `empleat_nom` VARCHAR(45) NULL,
   `empleat_cognoms` VARCHAR(45) NULL,
   `empleat_tel` VARCHAR(9) NULL,
@@ -118,10 +118,10 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `n1exercici2`.`comanda` ;
 
 CREATE TABLE IF NOT EXISTS `n1exercici2`.`comanda` (
-  `comanda_id` INT NOT NULL,
+  `comanda_id` INT NOT NULL AUTO_INCREMENT,
   `comanda_data` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `comanda_tipus` ENUM('repartiment', 'botiga') NOT NULL,
-  `comanda_preu` DECIMAL(10,2) NULL,
+  `comanda_preu` DECIMAL(10,2) NULL DEFAULT 0,
   `client_client_id` INT NOT NULL,
   `botiga_botiga_id` INT NOT NULL,
   `comanda_repartidor` VARCHAR(9) NULL DEFAULT NULL,
@@ -173,7 +173,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `n1exercici2`.`producte` ;
 
 CREATE TABLE IF NOT EXISTS `n1exercici2`.`producte` (
-  `producte_id` INT NOT NULL,
+  `producte_id` INT NOT NULL AUTO_INCREMENT,
   `producte_nom` VARCHAR(45) NOT NULL,
   `categoria` ENUM('Pizza', 'Hamburguesa', 'Beguda', 'Pizza Pepperoni', 'Pizza Caprese') NOT NULL,
   `producte_descripcio` VARCHAR(255) NULL,
