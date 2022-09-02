@@ -12,6 +12,9 @@ Repository created to deliver the first task of the second sprint of the BackEnd
 
 ## n1exercici2
 
+![image](https://user-images.githubusercontent.com/72571435/188220071-8d29005d-76cc-4e90-b288-65daa99d1269.png)
+
+
 ## util links
 
 The next links helped me a lot to finish this task.
