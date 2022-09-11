@@ -40,7 +40,7 @@ INSERT INTO `client`(client_nom, client_cognoms, adreça, codi_postal, localitat
     ('Júlia', 'Tortosa Grau', 'Carrer de les Tres Creus, 2 Baixos', '08030', 2, '673564257'),
     ('Marta', 'Rodríguez Selva', 'Gran Via de les Corts Catalanes 140, 10 D', '08010', 2, '650035027'),
     ('Pau', 'Cosí Martínez', 'Travessera de Gràcia 130, 4 3', '08014', 2, '624060492'),
-    ('Rubén', 'Prat Danubi', 'Carrer Numància', '08012', 2, '645672547'),
+    ('Rubén', 'Prat Danubi', 'Carrer Numància 50, 1 B', '08012', 2, '645672547'),
     ('Laura', 'Soler Muntanya', 'Passatge dels Horts 5, Casa', '08320', 7, '721041940'),
     ('Àlex', 'Cardona Follit', 'Carrer Rosa Sensat 30, 5 4', '08320', 7, '692041518');
 
