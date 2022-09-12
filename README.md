@@ -134,7 +134,7 @@ La data/hora en la qual es va realitzar.
 
 Un usuari/ària pot marcar un comentari com m'agrada o no m'agrada. Caldrà portar un registre dels usuaris/es que han marcat un comentari com m'agrada/no m'agrada, i en quina data/hora ho van fer.
 
-![image](https://user-images.githubusercontent.com/72571435/189661478-71529e9c-4eb3-448f-b264-f3ebd041f2ca.png)
+![image](https://user-images.githubusercontent.com/72571435/189679000-43dad4fc-6ffe-4639-9793-2eeafff64d35.png)
 
 
 ## n3exercici1 - Spotify
