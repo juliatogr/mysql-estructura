@@ -134,6 +134,8 @@ La data/hora en la qual es va realitzar.
 
 Un usuari/ària pot marcar un comentari com m'agrada o no m'agrada. Caldrà portar un registre dels usuaris/es que han marcat un comentari com m'agrada/no m'agrada, i en quina data/hora ho van fer.
 
+![image](https://user-images.githubusercontent.com/72571435/189659848-5f7c4e87-7d9e-4f17-96d8-f617f605650a.png)
+
 ## n3exercici1 - Spotify
 
 Tractarem de fer un model senzill de com seria la base de dades necessària per a Spotify.
