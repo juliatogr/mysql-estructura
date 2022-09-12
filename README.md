@@ -85,7 +85,104 @@ Si treballa com a cuiner/a o repartidor/a. Per a les comandes de repartiment a d
 
 ![image](https://user-images.githubusercontent.com/72571435/188220159-af1e81dc-c1c0-4588-9c4a-20db3f1a96d2.png)
 
+## n2exercici1 - Youtube
+Tractarem de fer un model senzill de com seria la base de dades per a una versió reduïda de YouTube.
 
+De cada usuari/ària guardem un identificador únic:
+Email.
+Password.
+Nom d'usuari/ària.
+Data de naixement.
+Sexe.
+País.
+Codi postal.
+
+
+Un usuari/ària publica vídeos. De cada vídeo guardem un identificador únic:
+Un títol.
+Una descripció.
+Una grandària.
+El nom de l'arxiu de vídeo.
+Durada del vídeo.
+Un thumbnail.
+El nombre de reproduccions.
+El número de likes.
+El número de dislikes.
+
+Un vídeo pot tenir tres estats diferents: públic, ocult i privat. Un vídeo pot tenir moltes etiquetes. Una etiqueta s'identifica per un identificador únic i un nom d'etiqueta. Interessa guardar qui és l'usuari/ària que publica el vídeo i en quina data/hora el fa.
+
+
+Un usuari/ària pot crear un canal. Un canal té un identificador únic:
+Un nom.
+Una descripció.
+Una data de creació.
+
+
+Un usuari/ària es pot subscriure als canals d'altres usuaris/es. Un usuari/ària pot donar-li un like o un dislike a un vídeo una única vegada. Caldrà portar un registre dels usuaris/es que li han donat like i dislike a un determinat vídeo i en quina data/hora ho van fer.
+
+
+Un usuari/ària pot crear playlists amb els vídeos que li agraden. Cada playlist té un identificador únic:
+Un nom.
+Una data de creació.
+Un estat que indica que pot ser pública o privada.
+
+
+Un usuari/ària pot escriure comentaris en un vídeo determinat. Cada comentari està identificat per un identificador únic:
+El text del comentari.
+La data/hora en la qual es va realitzar.
+
+
+Un usuari/ària pot marcar un comentari com m'agrada o no m'agrada. Caldrà portar un registre dels usuaris/es que han marcat un comentari com m'agrada/no m'agrada, i en quina data/hora ho van fer.
+
+## n3exercici1 - Spotify
+
+Tractarem de fer un model senzill de com seria la base de dades necessària per a Spotify.
+
+Existeixen dos tipus d'usuaris/es: free i  prèmium. De cada usuari/ària guardem un identificador únic:
+Email.
+password.
+Nom d'usuari/ària.
+Data de naixement.
+Sexe.
+País.
+Codi postal.
+
+Els usuaris/es prèmium fan subscripcions. Les dades necessàries que caldrà guardar per a cada subscripció són:
+Data d'inici de la subscripció.
+Data de renovació del servei.
+Una forma de pagament, que pot ser mitjançant targeta de crèdit o PayPal.
+
+De les targetes de crèdit guardem el número de targeta, mes i any de caducitat i el codi de seguretat. Dels usuaris/es que paguen amb PayPal guardem el nom d'usuari/ària de PayPal. Ens interessa portar un registre de tots els pagaments que un usuari/ària prèmium ha anat realitzant durant el període que està subscrit. De cada pagament es guarda:
+La data.
+Un número d'ordre (que és únic).
+Un total.
+
+Un usuari/ària pot crear moltes playlists. De cada playlist guardem:
+Un títol.
+El nombre de cançons que conté.
+Un identificador únic.
+Una data de creació.
+
+
+Quan un usuari/ària esborra una playlist no s'esborra del sistema, sinó que es marca com que ha estat eliminada. D'aquesta manera l'usuari/ària pot tornar a recuperar les seves playlists en cas que les hagi eliminat per error. És necessari emmagatzemar la data en la qual la playlist ha estat marcada com eliminada.
+
+Podem dir que existeixen dos tipus de playlists: actives i esborrades. Una playlist que està activa pot ser compartida amb altres usuaris/es, això vol dir que altres usuaris/es poden afegir cançons en ella. En una llista compartida ens interessa saber quin usuari/ària ha estat el que ha afegit cada cançó i en quina data ho va fer.
+Una cançó només pot pertànyer a un únic àlbum. Un àlbum pot contenir moltes cançons. Un àlbum ha estat publicat per un/a únic/a artista. Un/a artista pot haver publicat molts àlbums. De cada cançó guardem un identificador únic:
+Un títol.
+Una durada.
+El nombre de vegades que ha estat reproduïda pels usuaris/es de Spotify.
+
+De cada àlbum guardem un identificador únic:
+Títol.
+Any de publicació.
+Una imatge amb la portada.
+.
+De cada artista guardem un identificador únic:
+Nom.
+Una imatge de l'artista
+
+
+Un usuari/ària pot seguir a molts/es artistes. Un/a artista pot estar relacionat/da amb altres artistes que facin música semblant. De manera que Spotify pugui mostrar-nos un llistat d'artistes relacionats/des amb els artistes que ens agraden. També ens interessa guardar quins són els àlbums i les cançons favorites d'un usuari/ària. Un usuari/ària pot seleccionar molts àlbums i moltes cançons com a favorites.
 ## util links
 
 The next links helped me a lot to finish this task.
